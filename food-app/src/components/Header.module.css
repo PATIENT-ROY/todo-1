@@ -1,0 +1,42 @@
+.header {
+    background-color: #007BFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navItem {
+    margin: 0;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .navLink:hover {
+    color: #FFD700; /* Золотой цвет при наведении */
+  }
+  
